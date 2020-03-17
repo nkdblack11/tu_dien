@@ -12,6 +12,9 @@
                 if (tu == m1[i]) {
                     kq = m2[i]
                     document.getElementById('xuat').innerHTML ='Tiếng Việt: ' + kq
+                    break;
+                }if (tu !== m1[i]) {
+                    document.getElementById('xuat').innerHTML ='Không tìm thấy'
                 }
             }
         }
